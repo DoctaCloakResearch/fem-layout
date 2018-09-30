@@ -51,4 +51,14 @@ div img {
 	.col-1 {
 		flex: 0 0 20%;
 	}
+
+	.col-2 {
+		flex: 0 0 44%;
+	}
+	.col-3 {
+		flex: 0 0 68%;
+	}
+	.col-4 {
+		flex: 0 0 92%;
+	}
 }
