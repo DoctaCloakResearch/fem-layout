@@ -42,6 +42,16 @@ div img {
 .col-1 {
 	background-color: #ffc;
 }
+.col-2 {
+	background-color: #ccf;
+}
+.col-3 {
+	background-color: #fcf;
+}
+.col-4 {
+	background-color: #cff;
+}
+
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 
