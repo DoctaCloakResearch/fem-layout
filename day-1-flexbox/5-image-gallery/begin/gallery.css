@@ -13,8 +13,26 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
 }
+
+li {
+	flex: auto;
+}
+
+img {
+	width: 100%;
+}
+
+figcaption {
+	display: flex;
+	justify-content: center;
+}
+/* Mobile Landscape Screen Sizes */
 @media (min-width: 550px) {
 }
+
+/* Desktop screen Sizes */
 @media (min-width: 850px) { 
 }
