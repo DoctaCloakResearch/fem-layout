@@ -21,18 +21,29 @@ li {
 	flex: auto;
 }
 
-img {
-	width: 100%;
-}
-
 figcaption {
 	display: flex;
 	justify-content: center;
 }
 /* Mobile Landscape Screen Sizes */
 @media (min-width: 550px) {
-}
+	li {
+		flex: 0 0 50%;
+	}
 
+	img {
+		width: 100%;
+		height: 200px;
+	}
+}
 /* Desktop screen Sizes */
 @media (min-width: 850px) { 
+	li {
+		flex: 0 0 33%;
+	}
+
+	img {
+		width: 100%;
+		height: 300px;
+	}
 }
